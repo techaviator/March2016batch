@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="119454" started-at="2016-04-10T05:33:40Z" finished-at="2016-04-10T05:35:39Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Login_Scenario.valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Login_Scenario@1cad977]" name="valid_login" class="testscript.Login_Scenario"/>
+        <method signature="Search_Scenario.valid_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="valid_search" class="testscript.Search_Scenario"/>
+      </group> <!-- Regression -->
+      <group name="SmokeTest">
+        <method signature="Login_Scenario.valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Login_Scenario@1cad977]" name="valid_login" class="testscript.Login_Scenario"/>
+        <method signature="Search_Scenario.valid_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="valid_search" class="testscript.Search_Scenario"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Test" duration-ms="119454" started-at="2016-04-10T05:33:40Z" finished-at="2016-04-10T05:35:39Z">
+      <class name="testscript.Login_Scenario">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testscript.Login_Scenario@1cad977]" name="launchbrowser" is-config="true" duration-ms="10265" started-at="2016-04-10T11:05:12Z" finished-at="2016-04-10T11:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Login_Scenario@1cad977]" name="valid_login" duration-ms="14769" started-at="2016-04-10T11:05:23Z" data-provider="valid_login" finished-at="2016-04-10T11:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qtpworld2008 g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testscript.Login_Scenario@1cad977]" name="tear_down" is-config="true" duration-ms="1885" started-at="2016-04-10T11:05:37Z" finished-at="2016-04-10T11:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- testscript.Login_Scenario -->
+      <class name="testscript.Search_Scenario">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="launchbrowser" is-config="true" duration-ms="39140" started-at="2016-04-10T11:03:41Z" finished-at="2016-04-10T11:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="valid_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="valid_search" duration-ms="12925" started-at="2016-04-10T11:04:20Z" data-provider="valid_searchDP" finished-at="2016-04-10T11:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ways]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[495.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_search -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="tear_down" is-config="true" duration-ms="1750" started-at="2016-04-10T11:04:33Z" finished-at="2016-04-10T11:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="launchbrowser" is-config="true" duration-ms="10515" started-at="2016-04-10T11:04:35Z" finished-at="2016-04-10T11:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="valid_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="valid_search" duration-ms="6300" started-at="2016-04-10T11:04:45Z" data-provider="valid_searchDP" finished-at="2016-04-10T11:04:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chandler]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[415.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_search -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="tear_down" is-config="true" duration-ms="2278" started-at="2016-04-10T11:04:51Z" finished-at="2016-04-10T11:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="launchbrowser" is-config="true" duration-ms="10218" started-at="2016-04-10T11:04:54Z" finished-at="2016-04-10T11:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="valid_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="valid_search" duration-ms="5779" started-at="2016-04-10T11:05:04Z" data-provider="valid_searchDP" finished-at="2016-04-10T11:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jaico]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_search -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testscript.Search_Scenario@9dfb04]" name="tear_down" is-config="true" duration-ms="2549" started-at="2016-04-10T11:05:10Z" finished-at="2016-04-10T11:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- testscript.Search_Scenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
